@@ -15,3 +15,4 @@ export const CLOUDINARY_API_SECRET = process.env.CLOUDINARY_API_SECRET;
 export const PRIVATE_KEY = process.env.PRIVATE_KEY;
 export const PRIVATE_KEY_ID = process.env.PRIVATE_KEY_ID;
 export const CLIENT_ID = process.env.CLIENT_ID;
+export const CLIENT_EMAIL = process.env.CLIENT_EMAIL;
