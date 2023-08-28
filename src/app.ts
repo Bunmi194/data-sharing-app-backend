@@ -7,9 +7,11 @@ import companyRoutes from "./route/company";
 import { CLIENTURL, SESSION_SECRET } from "./env";
 import session from "express-session";
 import { sequelize } from "./config/database";
+import helmet from "helmet";
 
 const app = express();
 
+app.use(helmet());
 app.use(express.json());
 app.use(
   cors({

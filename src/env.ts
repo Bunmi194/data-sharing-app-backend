@@ -12,3 +12,6 @@ export const POSTGRES_HOST = process.env.POSTGRES_HOST;
 export const CLOUDINARY_NAME = process.env.CLOUDINARY_NAME;
 export const CLOUDINARY_API_KEY = process.env.CLOUDINARY_API_KEY;
 export const CLOUDINARY_API_SECRET = process.env.CLOUDINARY_API_SECRET;
+export const PRIVATE_KEY = process.env.PRIVATE_KEY;
+export const PRIVATE_KEY_ID = process.env.PRIVATE_KEY_ID;
+export const CLIENT_ID = process.env.CLIENT_ID;
